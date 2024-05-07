@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    font-family: "Roboto", sans-serif; ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 10px ;
+    
+}
+span i{
+    font-weight: 200;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style-type: none;
+}
+ul a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: rgb(209, 152, 29);
+    font-size: 11px;
+    font-weight: 300;
+    transition: 0.15s;
+    
+}
+ul a:hover{
+    color: wheat;
+    border-bottom: 2px solid red;
+}
+nav b{
+    padding: 20px 0 ;
+}
+main #home-section{
+    margin-top: 40px;
+    background-image: url("/image/istockphoto-1467481078-612x612.jpg"); 
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(209, 152, 29);
+}
+button{
+    background-color: rgb(209, 152, 29);
+    height: 30px;
+    width: 100px;
+    border: none;
+    margin-top: 25px;
+    border-radius: 7px;
+    font-size: 10px;
+}
+button:hover{
+    background-color: green;
+    border: 1px solid rgb(209, 152, 29);
+}
+button a{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+#home-section img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(216, 152, 29) ;
+    box-shadow: 0px 0px 4px rgb(138, 138, 138);
+    object-fit: cover;
+}
+#about-section {
+    padding: 90px;
+}
+.info{
+    width: 200px;
+    font-size: 12px;
+}
+#about-section{
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    gap: 50px;
+}
+.services p{
+    color: rgb(104, 104, 104);
+}
+.services div{
+    text-align: center;
+    
+}
+.services h4{
+    margin: 15px 0;
+}
+hr{
+    width: 50px;
+    border: 3px solid rgb(209, 152, 29);
+    border-radius: 5px;
+    margin: 15px auto  50px auto;
+}
+i{
+    color: rgb(209, 152, 29);
+}
+#work-section{
+    background-color: rgb(231, 134, 15);
+    padding: 60px 0;
+}
+#work-section h2{
+    margin-bottom: 50px;
+    color: whitesmoke;
+}
+#work-section .works{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    row-gap: 80px;
+    column-gap: 50px;
+}
+.works figure{
+    text-align: center;
+    color: wheat;
+}
+.works img{
+    width: 200px;
+    margin-bottom: 10px;
+}
+#resume-section {
+    padding: 50px 0 ;
+    background-color: rgb(39, 32, 32);
+    color: wheat;
+}
+#resume-section .content{
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+}
+#resume-section  h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#resume-section h3{
+    margin: 10px 0;
+}
+#resume-section hr{
+    margin: 0 30px;
+    border: 1px solid wheat;
+    background-color: wheat;
+    width: 1px;
+}
+#resume-section p,
+#resume-section li{
+    width: 350px;
+}
+#contact-section{
+    padding: 50px 0;
+    color: rgb(255, 178, 35);
+}
+#contact-section form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+#contact-section h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.inputs div,
+.textarea div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+.textarea{
+    text-align: right;
+}
+label{
+    margin-bottom: 5px;
+    font-size: 12px;
+    text-align: start ;
+}
+input{
+    width: 300px;
+    height: 30px;
+    background-color: #f1f1f1;
+    outline-color: whitesmoke;
+    border: 1px solid wheat;
+    border-radius: 3px;
+    padding: 0 10px;
+}
+textarea{
+    border: 1px solid wheat;
+    width: 450px;
+    height: 200px;
+    outline: none;
+}
+.textarea button{
+    width: 110px;
+    height: 35px;
+    background-color: rgb(255, 186, 58);
+    color: #f1f1f1;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+}
+footer{
+    background-color: black;
+    color: rgb(209, 152, 29);
+    padding: 15px 0;
+}
+footer a{
+    color: white;
+}
+footer b{
+    margin-bottom: 4px;
+}
+footer p{
+    font-size: 9px;
+    margin-top: 5px;
+}
